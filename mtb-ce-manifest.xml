@@ -4,17 +4,17 @@
     <id>mtb-example-psoc6-empty-app</id>
     <uri>https://github.com/cypresssemiconductorco/mtb-example-psoc6-empty-app</uri>
     <description>This empty application provides a template for creating applications using PSoC 6 devices.</description>
-    <req_capabilities>psoc6</req_capabilities>
+    <req_capabilities>psoc6</req_capab{}YTlities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -27,15 +27,15 @@
     <description>This code example demonstrates simple UART communication by printing a "Hello World" message on a terminal and blinks an LED using a Timer resource using PSoC 6 MCU.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -48,15 +48,15 @@
     <description>This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.</description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -69,15 +69,15 @@
     <description>This code example demonstrates the implementation of a BLE Battery Service using PSoC 6 MCU with Bluetooth Low Energy Connectivity (PSoC 6 BLE). This code example implements a GATT Server with the Battery Service and Device Information Service BLE standards. This code example uses FreeRTOS.</description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -90,15 +90,15 @@
     <description>This example demonstrates how to configure a GPIO to generate an interrupt in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 led switch</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -111,19 +111,19 @@
     <description>This code example demonstrates the implementation of a simple BLE Immediate Alert Service (IAS)-based Find Me Profile (FMP) using PSoC 6 MCU with Bluetooth Low Energy (BLE) Connectivity.</description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.1 release</num>
         <commit>release-v1.0.1</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -136,15 +136,15 @@
     <description>This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at 2 Hz.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -157,19 +157,19 @@
     <description>This example demonstrates the usage of the real-time clock (RTC) in PSoC 6 MCU.</description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -182,15 +182,15 @@
     <description>This code example demonstrates emulation of EEPROM behavior in flash memory of PSoC 6 MCU using emeeprom middleware.</description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -203,19 +203,19 @@
     <description>This code example features a 5-segment CapSense slider and two CapSense buttons. Button 0 turns the LED on, Button 1 turns the LED off and the slider controls the brightness of the LED. The code example also demonstrates interfacing with Tuner GUI using I2C interface.</description>
     <req_capabilities>psoc6 led capsense_button capsense_linear_slider</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -228,15 +228,15 @@
     <description>This example demonstrates the fault handling functionality of PSoC 6 MCU using Peripheral Driver Library (PDL) System Library (SysLib).</description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -249,15 +249,15 @@
     <description>This code example encrypts and decrypts user input data using the AES algorithm using a 128-bit key. The encrypted and decrypted data are displayed on a UART terminal emulator.</description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -270,15 +270,15 @@
     <description>This code example demonstrates generating a One-Time Password (OTP) using the True Random Number generation feature of PSoC 6 MCU cryptography block.</description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -291,15 +291,15 @@
     <description>This example demonstrates the UART (HAL) transmit and receive operation in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -312,19 +312,19 @@
     <description>This example demonstrates the UART transmit and receive operation using DMA in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -337,15 +337,15 @@
     <description>This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -358,19 +358,19 @@
     <description>This example demonstrates the use of I2C (HAL) resource for PSoC 6 MCU in Master mode with an EzI2C slave.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -383,15 +383,15 @@
     <description>This example demonstrates the operation of the I2C (HAL) resource for PSoC 6 MCU in Slave mode using callbacks.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -404,19 +404,19 @@
     <description>This example demonstrates the use of SPI (HAL) resource for PSoC 6 MCU in Master mode.</description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -429,23 +429,23 @@
     <description>This example demonstrates the use of PSoC 6 MCU Serial Communication Block (SCB) resource in SPI Master mode using DMA.</description>
     <req_capabilities>psoc6 std_crypto led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -458,19 +458,19 @@
     <description>This example uses a PWM resource and Smart I/O in PSoC 6 MCU to implement a ramping LED, where an LED gradually cycles through increasing and decreasing brightness levels. There is no CPU usage except for the initialization of PWM and Smart I/O.</description>
     <req_capabilities>psoc6 std_crypto led smart_io</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -483,19 +483,19 @@
     <description>This code example demonstrates displaying 2D graphics on an E-Ink display using EmWin graphics library in FreeRTOS.</description>
     <req_capabilities>psoc6 led arduino switch</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -508,15 +508,15 @@
     <description>This code example demonstrates displaying 2D graphics on an OLED display using EmWin graphics library in FreeRTOS.</description>
     <req_capabilities>psoc6 arduino switch</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -529,15 +529,15 @@
     <description>This code example shows how to generate a 32-byte hash value or message digest for an arbitrary user input message with the SHA2 algorithm using the Cryptographic hardware block in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -550,15 +550,15 @@
     <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -571,15 +571,15 @@
     <description>This example demonstrates the Watchdog Timer (WDT) in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -592,15 +592,15 @@
     <description>This example explains how to setup a 32-bit free-running counter using two 16-bit counters of Multi-Counter Watchdog Timer (MCWDT) in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -613,15 +613,15 @@
     <description>This example demonstrates how to transition PSoC 6 MCU to the following power modes - Low Power Active, Low Power Sleep, Ultra Low Power Active, Ultra Low Power Sleep, and Deep Sleep.</description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -680,19 +680,19 @@
     <description>This example demonstrates how to route PDM audio data to the I2S interface in PSoC 6 MCU.</description>
     <req_capabilities>psoc6 arduino i2s pdm</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -705,15 +705,15 @@
     <description>This example demonstrates how to use the pulse-density modulation/pulse-code modulation (PDM/PCM) hardware block in PSoC 6 MCU with a digital microphone.</description>
     <req_capabilities>psoc6 pdm</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -726,15 +726,15 @@
     <description>This example demonstrates how to use the I2S hardware block in PSoC 6 MCU to interface with an audio codec.</description>
     <req_capabilities>psoc6 arduino i2s</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -747,19 +747,19 @@
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a HID. The device enumerates as a 3-button mouse.</description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -772,15 +772,15 @@
     <description>This example demonstrates interfacing with an external NOR flash memory in Quad-SPI mode using the Serial Memory Interface (SMIF) block in PSoC 6 MCU. This example uses the Serial Flash Discoverable Parameters (SFDP) standard to auto-discover the flash parameters and the commands for read, program, and erase operations.</description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -797,19 +797,19 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -826,23 +826,23 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -859,23 +859,23 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.3.0 release</num>
         <commit>release-v1.3.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -888,11 +888,11 @@
     <description>This code example demonstrates interfacing PSoC 6 MCU with an external QSPI F-RAM memory and access it in Single, Dual, or Quad SPI mode using the Serial Memory Interface (SMIF) block. This example uses the PSoC 6 MCU standard QSPI HAL driver library to build the QSPI F-RAM access API.</description>
     <req_capabilities>psoc6 led qspi fram rgb_led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -909,19 +909,19 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -934,15 +934,15 @@
     <description>This example demonstrates the use of PSoC 6 MCU to implement an audio recorder using the USB Audio Device Class.</description>
     <req_capabilities>psoc6 std_crypto usb_device pdm</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -955,19 +955,19 @@
     <description>This example demonstrates how to use PSoC 6 MCU to implement a USB Audio Device and HID Audio Playback Control that connects to the PC via the USB interface. The example also uses FreeRTOS.</description>
     <req_capabilities>psoc6 std_crypto usb_device capsense_button capsense_linear_slider i2s</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.2.0 release</num>
         <commit>release-v1.2.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1001,15 +1001,15 @@
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU for Communication Device Class (CDC). When configured for a CDC, the PSoC 6 enumerates a Virtual COM port, which can be read and written by a terminal emulator program on a PC.</description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1022,15 +1022,15 @@
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Human Interface Device (HID). The device enumerates as a Generic HID device.</description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1085,11 +1085,11 @@
     <description>This example demonstrates the usage of CSD analog-to-digital converter (ADC) in PSoC 6 MCU. CSDADC measures the external voltage and displays the conversion result the terminal application.</description>
     <req_capabilities>psoc6 std_crypto capsense</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -1102,11 +1102,11 @@
     <description>This code example demonstrates the implementation of simple FreeRTOS task that blinks an LED periodically using PSoC 64 MCU.</description>
     <req_capabilities>secure_boot</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1140,15 +1140,15 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1165,15 +1165,15 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1186,11 +1186,11 @@
     <description>This code example demonstrates BLE GATT throughput measurement (using GATT layer notifications and GATT write command) using PSoC 6 BLE MCU.</description>
     <req_capabilities>psoc6 led switch ble</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1206,15 +1206,15 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1252,15 +1252,15 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1273,11 +1273,11 @@
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU as a Mass Storage (MSC) device and emulate a file system in the internal memory.</description>
     <req_capabilities>psoc6 std_crypto usb_device</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1294,15 +1294,15 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1319,15 +1319,15 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led switch anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1340,11 +1340,11 @@
     <description>This code example demonstrates the implementation of a beacon which advertises multiple Eddystone ADV data.</description>
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1357,11 +1357,11 @@
     <description>This code example demonstrates the implementation of a simple BLE Battery Service.</description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1374,11 +1374,11 @@
     <description>This code example demonstrates the implementation of a simple BLE Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the BLE connection using the Cypress WiFi-BT combo SoCs supported in AnyCloud-SDK.</description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1391,11 +1391,11 @@
     <description>This code example demonstrates WiFi Onboarding using BLE.</description>
     <req_capabilities>psoc6 wifi bt led anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1408,11 +1408,11 @@
     <description>This code example demonstrates the CapSense implementation using BLE Custom Service.</description>
     <req_capabilities>psoc6 bt capsense_button capsense_linear_slider led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1425,11 +1425,11 @@
     <description>This code example demonstrates the implementation of a simple BLE GAP Peripheral - GATT Client with Current Time Service.</description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1442,11 +1442,11 @@
     <description>This code example demonstrates the implementation of a simple BLE GAP Central - GATT Server with Current Time Service.</description>
     <req_capabilities>psoc6 bt led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1459,11 +1459,11 @@
     <description>This code example demonstrates CapSense custom scanning through CapSense Middleware's callback functions that allow altering the sensor parameters during runtime or synchronizing the CapSense scan with non-CapSense operations. In this code example, the callback function is used to change the inactive sensor state to either shield or ground depending on the sensor being scanned.</description>
     <req_capabilities>psoc6 led capsense_linear_slider</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1476,11 +1476,11 @@
     <description>This example demonstrates how to use the QSPI block of the PSoC 6 MCU in execute-in-place (XIP) mode with an external flash memory device.</description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1493,11 +1493,11 @@
     <description>This empty application provides a template for creating applications using PSoC 4 devices.</description>
     <req_capabilities>psoc4</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1510,11 +1510,11 @@
     <description>This example demonstrates the operation of the I2C block for PSoC 4 in Slave mode using callbacks.</description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1527,11 +1527,11 @@
     <description>This example demonstrates the operation of I2C resource for PSoC 4 in Master mode with an EzI2C slave.</description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1545,11 +1545,11 @@
     to generate a periodic interrupt. An LED toggles whenever the interrupt occurs.</description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1562,11 +1562,11 @@
     <description>This code example demonstrates how to manually tune a mutual capacitance (CSX)-based button widget in PSoC 4 devices using CapSense Tuner GUI.</description>
     <req_capabilities>psoc4 capsense_button</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1579,11 +1579,11 @@
     <description>This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Client example</description>
     <req_capabilities>psoc6 led ble capsense_button capsense_linear_slider</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1601,15 +1601,15 @@
     ]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi led anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1626,11 +1626,11 @@
     ]]></description>
     <req_capabilities>psoc6 cyw43xxx wifi switch anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1643,11 +1643,11 @@
     <description>This example demonstrates how to configure the USB block in a PSoC 6 MCU device as a Mass Storage (MSC) device and run a file system (FatFs) through an external memory (microSD). This example uses FreeRTOS.</description>
     <req_capabilities>psoc6 std_crypto usb_device switch led pdm sdhc anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1660,11 +1660,11 @@
     <description>This example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSoC 4. The GPIO signal interrupts the CPU and executes a user-defined Interrupt Service Routine (ISR).</description>
     <req_capabilities>psoc4 led</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1681,11 +1681,11 @@
     ]]></description>
     <req_capabilities>psoc6 cyw43xxx led wifi anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1698,11 +1698,11 @@
     <description>This code example demonstrates how to monitor the CapSense data and tune the CapSense sensors over BLE communication with CapSense Tuner GUI using PSoC 6 BLE MCU. This is intended to be used with the CapSense Tuning Over BLE - Server example</description>
     <req_capabilities>psoc6 led ble</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1715,11 +1715,11 @@
     <description>This code example demonstrates building a simple bootloader application for PSoC 62/63 MCUs using the open-source library - MCUboot. </description>
     <req_capabilities>psoc6 std_crypto led qspi nor_flash</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1732,11 +1732,11 @@
     <description>This empty application provides a template for creating dual-CPU applications using PSoC 6 devices.</description>
     <req_capabilities>psoc6 std_crypto</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1749,11 +1749,11 @@
     <description>This example demonstrates how to use the inter-processor communication (IPC) driver to implement a semaphore in PSoC 6 MCU. The semaphore is used as a lock to control access to a resource shared by the CPUs and synchronize the initialization instructions.</description>
     <req_capabilities>psoc6 std_crypto led switch</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1766,11 +1766,11 @@
     <description>This example demonstrates how to use the inter-processor communication (IPC) driver to implement a message pipe in PSoC 6 MCU. The pipe is used to send messages between CPUs.</description>
     <req_capabilities>psoc6 std_crypto switch</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
@@ -1787,11 +1787,11 @@
     ]]></description>
     <req_capabilities>psoc6 wifi cyw43xxx led std_crypto qspi nor_flash anycloud</req_capabilities>
     <versions>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>Latest 1.X release</num>
         <commit>latest-v1.X</commit>
       </version>
-      <version req_capabilities_per_version="bsp_gen1">
+      <version flow_version="1.0" tools_max_version="2.1.0" req_capabilities_per_version="bsp_gen1">
         <num>1.0.0 release</num>
         <commit>release-v1.0.0</commit>
       </version>
